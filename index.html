@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NYC Jewelry Repairs</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap" rel="stylesheet">
+ <style>
+      body, html {
+        margin:0 auto;
+        padding:0;
+        box-sizing: border-box;
+        
+      }
+    .imageBkContainer {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.9)), url("images/pattern-10.jpg");       
+        background-repeat: no-repeat;
+        background-size: cover;
+        border: 4px solid #1d1d1c;
+        color: #FFF;
+        max-width: 90%;
+        margin: 0 auto;
+        }
+    header {
+        background-color: gray;
+        color:#FFF;
+        padding:10px;
+        text-align: center;
+        width: 100vw;
+        } 
+        h3 {
+          margin-left: 6px;
+          word-spacing: .2em;
+          font-size: .95em;          
+          border-bottom: 1px solid #1d1d1c;
+        }
+        h2 {
+           font-size: .65em;  
+          text-transform:uppercase;
+          margin: 2px;
+        }
+        p {
+          font-family: 'Roboto Condensed', sans-serif;
+          margin-top:10px;
+          font-size: 14px;
+        }
+    .bxContainer {
+          display: flex; 
+          text-align:center;
+          margin: 10px 50px 30px;
+        }
+    #topBox {
+      display:flex;
+      justify-content: space-between;
+      margin: 56px 61px 0px 62px;
+    }
+    .featured {
+      font-size: 1rem;
+      font-family: 'Roboto Condensed', sans-serif;
+      font-weight: 300;
+      text-transform: uppercase;
+        }
+    .styled {
+      border: 0;
+      padding: 0 20px;
+      font-size: .65em;
+      text-align: center;
+      color: #FFF;
+      text-shadow: 1px 1px 1px #000;
+      border-radius: 6px;
+      background-color: rgba(220, 0, 0, 1);
+      background-image: linear-gradient(to top left, rgba(0, 0, 0, .2), rgba(0, 0, 0, .2) 30%, rgba(0, 0, 0, 0));
+      box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6), inset -2px -2px 3px rgba(0, 0, 0, .6);
+    }
+    .styled:hover {
+      background-color:rgba(255, 0, 0, 1);
+    }
+    .styled:active {
+      box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6), inset 2px 2px 3px rgba(0, 0, 0, .6);
+    }
+    .box img {
+          border: 3px solid #1d1d1c;
+          width: 90%;
+        }   
+</style>
+
+</head>
+<body>
+<header>Repairs from Ladys' Agenda</header>
+<h3>Restyle your favorite jewelry piece, at a reasonably price.</h3>
+
+<div class="imageBkContainer">
+
+   <div id="topBox">
+        <h1 class="featured">Featured Repairs</h1>
+        <button class="styled">Galley of Repairs</button>
+      </div>
+
+
+
+  <div class="bxContainer">
+      <div class="box">
+        <img src="images/repairPic.png">
+          <h2>Handmade tassels with gems</h2>
+          <p>28" 14k necklace</p>
+      </div>
+      
+      <div class="box"><img src="images/whiteOnyx2.jpg">
+          <h2>Repairs</h2>
+          <p>Restringing white onyx and<br>
+            redesign multistrands with pearls.</p>
+        </div>
+
+      <div class="box"><img src="images/ceramicRepair.jpg">
+          <h2>Ceramic Art piece</h2>
+          <p>Repairing museum piece<br> for art show.</p>
+        </div>
+
+      <div class="box"><img src="images/pearlRepair.jpg">
+        <h2>Pearl Flowetts</h2>
+        <p>Handmade tiny pearl flowetts <br>made into necklace.</p>
+    </div>
+  </div>
+
+
+</div>
+</body>
+</html>
